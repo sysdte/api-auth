@@ -37,5 +37,5 @@ Route::group([
     });
 });
 
-Route::middleware('auth:api')->get('/articulo', [Articulo::class, 'all']);
+//Route::middleware('auth:api')->get('/articulo', [Articulo::class, 'all']);
 
